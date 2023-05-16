@@ -1,0 +1,2400 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0px;
+	padding: 0px;
+	font-family: Bosch Sans Medium;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: "Bosch Sans Regular";
+    src: url("font/BoschSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Bosch Sans Medium";
+    src: url("font/BoschSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Bosch Sans Bold";
+    src: url("font/BoschSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Bosch Sans Black";
+    src: url("font/BoschSans-Black.ttf");
+}
+
+#container {
+  
+	text-align: center;
+	margin: auto;
+    max-width: 1920px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 20px;
+}
+
+
+
+h1 { 
+    font-family: "Bosch Sans Black";
+	margin: 0px; 
+	padding: 30px; 
+	text-align: center; 
+	color: white;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	text-transform: uppercase;
+	font-size: 320%;
+}
+
+h1a { 
+    font-family: "Bosch Sans Black";
+	margin: 0px; 
+	padding: 30px; 
+	text-align: center; 
+	color: white;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	text-transform: uppercase;
+	font-size: 320%;
+}
+
+h2 { 
+	color: #000000;
+    font-family: "Bosch Sans Bold";
+    font-size: 18px;
+}
+
+h3 { 
+    font-size: 15px;
+}
+
+#blue_stripe {
+	width: 100%;
+	height: 180px;
+	background: url("bosch_logo.png"), linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+}
+
+#heavy_duty_logo {
+	position: relative;
+    width: 62px;
+	left: 93%;
+	top: -8%;
+}
+
+#cover {
+	position: relative;
+	background-image: url("cover_img.jpg");
+	background-size: cover;                  
+	background-repeat: no-repeat;
+	background-position: center 100%;
+	width: auto;
+	height: 940px;
+}
+
+#cover_product_name {
+	position: absolute;
+	text-align: left;
+padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px; 
+    padding-right: 40px;
+    margin-right: auto;
+	left: 40px;
+    top: 40px;
+    width: 520px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+#cover_product_name h1{
+    background: none;
+}
+
+#cover_product_name h1 {
+	text-align: left;
+	padding: 0px; 
+}
+
+#cover_product_description {
+    font-family: "Bosch Sans Black";
+    font-size: 150%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+
+#brushless_logo {
+	margin: auto;
+    padding-top: 3%;
+    float:right;
+}
+
+#cover_product_description_2 {
+    font-family: "Bosch Sans Black";
+    font-size: 115%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}
+
+#cover_2_product_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px; 
+    padding-right: 60px;
+    margin-right: auto;
+	margin-left: auto;
+    left: 40px;
+    top: 700px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	width: auto;
+	height: auto;
+}
+
+#cover_2_product_name h1 {
+	text-align: left;
+	padding: 0px; 
+}
+
+
+#main_set_grid p {
+    font-size: 140%;
+    text-align: center;
+}
+
+#main_set_grid p2 {
+    font-size: 500%;
+    color: #003b6a;
+}
+
+#main_set_grid {
+    display: grid;
+    padding-top:5%;
+    padding-bottom: 5%;
+    grid-template-columns: 26% 5%  26% 5% 26%;
+    grid-template-rows: auto;
+    grid-column-gap: 3% ;
+    grid-row-gap: 0% ;
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.main_set_grid_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.main_set_grid_pic_2{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.main_set_grid_pic_3{
+ 	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.main_set_grid_txt_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    width:100%;
+}
+
+.main_set_grid_txt_2{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    width:100%;
+
+}
+
+.main_set_grid_txt_3{
+ 	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    width:100%;
+
+}
+
+.main_set_plus_1{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.main_set_plus_2{
+ 	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+#keyvisual_text h1 {
+    font-size: 250%;
+}
+
+#key_description2 {
+	margin: auto;
+	text-align: center; 
+	width: 80%;
+	padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 140%;
+}
+
+#keyvisual {
+	position: relative;
+	background-image: url("health_key_visual.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: right 100%;
+	width: auto;
+	height: 1100px;
+}
+
+
+#key_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-right: auto;
+	right: 40px;
+    top: 40px;
+    width: 620px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+#key_name h1{
+    background: none;
+}
+
+#key_name h1 {
+	font-family: "Bosch Sans Black";
+    font-size: 220%;
+	text-align: left;
+	padding: 0px; 
+}
+
+#key_description {
+    font-family: "Bosch Sans Bold";
+    font-size: 120%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+
+#key_description_2 {
+    font-family: "Bosch Sans Regular";
+    font-size: 90%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+.key_bold {
+    font-family: "Bosch Sans Bold";
+    font-size: 18px;
+ } 
+
+
+
+#product_info { 
+	background-color: #ffffff;
+}
+
+#product { 
+	margin: auto;
+	background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 65%
+}
+
+video {
+    max-width: 100%;
+  height: auto;
+}
+#product_description {
+	margin: auto;
+	text-align: center; 
+	width: 80%;
+	padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 140%;
+}
+
+#product_description p {
+    font-size: 100%;
+}
+
+
+#details_grid {
+    display: grid;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-column-gap: 2%;
+    grid-row-gap: 0%;
+    width: 100%;
+    margin:auto;
+
+
+}
+.details_hl ph {
+    font-family: "Bosch Sans Bold";
+    font-size: 20px;
+    
+}
+
+.details_hl {
+    padding-top: 10%;
+}
+
+.details_hl2 {
+    padding-top: 20%;
+}
+
+.details_hl p {
+    margin-bottom: 7%;
+    margin-top: 1%
+}
+
+
+.details_hl2 ph {
+    font-family: "Bosch Sans Bold";
+    font-size: 20px;
+}
+.details_hl2 p {
+    margin-bottom: 7%;
+    margin-top: 1%
+}
+
+.details_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	
+}
+
+.details_1{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+    padding-left: 2%;
+    padding-right: 30%;
+    text-align: left;
+
+}
+
+.details_pic_2{
+    padding-top: 0%;
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.details_2{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+    padding-left: 2%;
+    text-align: right;
+}
+
+.details_pic_3{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.details_3{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+    padding-left: 2%;
+    padding-right: 30%;
+    text-align: left;
+}
+
+#icon_section { 
+	display: absolute;
+	clear: both;
+	width: 80%;
+	padding: 0px 0 30px 0;
+	text-align: center;
+	margin: auto;
+}
+
+.icon_section_column { 
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	padding: 20px;
+	vertical-align: top;
+}
+
+#icon_section p{
+    color:#003c69;
+    font-size: 80%;
+    }
+
+#cover_2 {
+	position: relative;
+	background-image: url("cover_2.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 1140px;
+    margin-bottom: 40px;
+}
+
+#what_can_we_do p {
+	font-family: "Bosch Sans Bold";
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    font-size: 130%
+}
+
+#what_can_grid {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    grid-row-gap: 5% ;
+    width: 96%;
+    margin:auto;
+    text-align: left;
+
+}
+
+.what_can_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.what_can_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 2%;
+}
+
+.what_can_pic_2{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.what_can_2{
+ 	grid-column-start: 2;
+	grid-column-end:2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 2%;
+}
+
+.what_can_pic_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.what_can_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 2%;
+}
+
+
+#biturbo {
+	margin: auto;
+	width: 100%;
+	text-align: left;
+    height: 100%
+}
+
+
+
+#biturbo_grid {
+    display: grid;
+	padding-top: 3%;
+    padding-bottom: 0%;
+    grid-template-columns: 32% 32% 32% ;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    width: 100%;
+    margin:auto;
+
+}
+
+.benefit_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_2{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_2{
+ 	grid-column-start: 2;
+	grid-column-end:2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_4{
+ 	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_4{
+ 	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+/* TECHNICAL DETAILS */
+
+#technical_details {
+	position: relative;
+	margin: auto;
+	padding: 100px 0 200px 0;
+	overflow: hidden;
+}
+
+#technical_details_img img
+{
+	position:absolute;
+}
+
+#technical_details img {
+    width: 25vw;
+    max-width: 400px;
+    margin-left: 67%;
+    margin-right: auto;
+    position: absolute;
+    top: 18%;
+}
+
+
+#technical_details_table {
+	margin: auto;
+    width: 60vw;
+}
+
+#technical_details td {
+	padding: 13px;
+	text-align: left;
+}
+
+.cell_light {
+	background-color: white;
+}
+.cell_dark {
+	background-color: #cecfd1;
+}
+
+.column_right {
+    width: 22vw;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.75%; 
+    height: 0;
+    background-color: #cecfd1;
+}
+
+/* RECOMMENDED ACCESSORIES */
+
+#recommended_accessories_grid {
+    display: grid;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-column-gap: 6% ;
+    grid-row-gap: 2% ;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-left: 0
+  }
+
+#recommended_accessories_grid p {
+    font-size: 20px;
+    font-family: "bosch sans bold"
+}
+
+.title_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+
+}
+
+
+.title_2{
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
+.title_3{
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
+.title_6{
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
+.title_7{
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
+.pic_1 {
+    grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-bottom: 55px;
+
+}
+
+
+.pic_2 {
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-bottom: 55px;
+
+}
+
+
+.pic_3 {
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-bottom: 55px;
+
+}
+
+
+.pic_6 {
+    grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start:2;
+	grid-row-end: 8;
+
+}
+
+
+.pic_7 {
+    grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 8;
+
+}
+
+
+
+#what_can_we_do table {
+	margin: auto;
+	width: 80%;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#what_can_we_do table img {
+	width: 560px;
+    padding-bottom: 60px;
+}
+
+#what_can_we_do td {
+	padding: 10px;
+	vertical-align: top;
+	alignment-baseline: text-top;
+    width: 20%;
+}
+
+
+#product_comparison table {
+	margin: auto;
+	text-align: center;
+    width: 80%;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+#product_comparison img {
+    max-width: 80%;
+}
+
+.table_bold {
+    font-family: Bosch Sans Black;
+    font-size: 90%;
+	text-align: left;
+    border:none;
+}
+
+.table_medium{
+    font-size: 90%;
+	text-align: center;
+    border:none;
+}
+
+.table_light{
+    font-size: 60%;
+	text-align: left;
+    border:none;
+}
+
+.table_medium_highlight{
+    font-size: 90%;
+	text-align: center;
+    border:none;
+    background-color: #e2e2e2
+}
+
+
+#product_comparison th {
+	background-color: #003d6d;
+    font-size:90%;
+	color: white;
+	padding: 13px;
+}
+
+#product_comparison td {
+	padding: 13px;
+}
+
+
+#what_is_in_the_kit img {
+	display: block;
+    max-width: 50%;
+    padding: 100px 0 100px 0;
+}
+
+#what_is_in_the_kit_img img {
+	margin: auto;
+	padding: 100px 0 100px 0;
+}
+
+#woodworking_keyvisual {
+	position: relative;
+	background-image: url("woodworking_keyvisual.jpg");
+	background-size: cover;                  
+	background-repeat: no-repeat;
+	background-position: center 19%;
+	width: auto;
+	height: 1050px;
+    margin-top:70px;
+}
+
+#woodworking_keyvisual_hl {
+	position: absolute;
+	text-align: left;
+	padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px; 
+    padding-right: 60px;
+    margin-right: auto;
+	right: 40px;
+    top: 40px;
+    width: 600px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+
+#woodworking_keyvisual h1 {
+    font-size: 400%;
+	text-align: left;
+	padding: 0px; 
+    line-height: 1;
+}
+
+#woodworking_keyvisual_shl {
+    font-family: "Bosch Sans Black";
+    font-size: 150%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+
+#woodworking_keyvisual_description {
+    font-family: "Bosch Sans regular";
+    font-size: 85%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}
+
+#promix {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#service {
+	position: relative;
+	width: auto;
+	height: 1300px;
+	background-size: cover;
+	background-position: top;
+	background-image: url("service_img.jpg"); 
+}
+
+h4{
+	font-family: "Bosch Sans Bold";
+    font-size: 130%;    
+    padding-top: 20px;
+}
+
+h5{
+	font-family: "Bosch Sans regular";
+    font-size: 90%;
+    margin-top: -15px;
+    margin-bottom:15px;
+}
+
+#customer_service_box {
+	display: inline-block;
+	position: absolute;
+	width: 550px;
+	right: 0px;
+	top: 40px;
+	padding: 0px 45px 40px 5%;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+    color: white;
+}
+
+
+#after_sales_box {
+	display: inline-block;
+	position: absolute;
+	width: 550px;
+	right: 0px;
+    bottom: 480px;
+	padding: 0px 45px 150px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box h51{
+    font-size: 100%;
+    font-family: "Bosch Sans bold";
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+#after_sales_box2 h4{
+    font-size: 100%;
+    font-family: "Bosch Sans bold";
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+#after_sales_box2 {
+	display: inline-block;
+	position: absolute;
+	width: 550px;
+	right: 0px;
+    bottom: 320px;
+	padding: 10px 45px 105px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box2 img{
+    padding-top: 0%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box img{
+    padding-top: 0%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box3 {
+	display: inline-block;
+	position: absolute;
+	width: 550px;
+	right: 0px;
+    bottom: 40px;
+	padding: 10px 45px 105px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box3 img{
+    padding-top: 0%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box3 h4{
+    font-size: 100%;
+    font-family: "Bosch Sans bold";
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+footer {
+	color: white;
+	background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+
+.footer_section_column { 
+	display: inline-block;
+	width: 370px;
+	text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+	padding-bottom: 50px;
+	vertical-align: top;
+    font-size: 90%;
+    font-family: bosch sans regular;
+}
+
+.footer_section_column p
+{
+	font-family: bosch sans bold;
+    font-size: 130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets, Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) { 
+
+#cover {
+	position: relative;
+	background-image: url("cover_img.png");
+	background-size: cover;
+	background-position: 70%;
+    background-repeat: no-repeat;
+	width: auto;
+	height:500px;
+}
+	
+#blue_stripe {
+	width: 100%;
+	height: 75px;
+	background: url("bosch_logo_tablet.png"), linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+}
+    
+#blue_stripe:before {
+    content: '';
+    position: absolute;
+    z-index: 1; /* push it to the background */
+    top: 30px; /* position it off the top background */
+    right: 30px;
+    bottom: 0px; /* position it off the bottom background */
+    left: 0px;
+}
+    
+    
+#heavy_duty_logo {
+	position: relative;
+    width: 40px;
+	left: 92%;
+	top: -8%;
+}
+
+		
+#product { 
+	margin: auto;
+	background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    width: 80%
+}
+    
+h1 { 
+	margin: 0px; 
+	padding: 20px; 
+	text-align: center; 
+	text-transform: uppercase;
+	font-size: 250%;
+	}
+	
+#cover_product_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 40px;
+    padding-left: 40px; 
+    padding-right: 40px;
+	right: 40px;
+    top: 40px;
+	bottom: auto;
+	color: white;
+	width: 200px;
+	height: auto;
+}
+
+     #brushless_logo {
+	margin: auto;
+    width: 60%;
+    padding-top: 10%;
+    float:right;
+}  
+    
+ #cover_product_description {
+    font-family: "Bosch Sans Black";
+    font-size: 100%;
+	margin: 10px 0 0px 0; 
+}
+
+ #cover_product_description_2 {
+    font-family: "Bosch Sans Black";
+    font-size: 77%;
+	margin: 10px 0 0px 0; 
+}
+    
+#cover_2 {
+	position: relative;
+	background-image: url("cover_2.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 720px;
+}
+
+#cover_2_product_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px; 
+    padding-right: 60px;
+    margin-right: 55%;
+	margin-left: auto;
+    left: 40px;
+    top: 260px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	width: auto;
+	height: auto;
+}
+
+#cover_2_product_name h1 {
+	text-align: left;
+	padding: 0px; 
+}
+    
+    
+#main_set_grid p {
+    font-size: 100%;
+    text-align: center;
+}
+    
+#main_set_grid p2 {
+    font-size: 300%;
+    color: #003b6a;
+}
+
+
+    
+#keyvisual {
+	position: relative;
+	background-image: url("health_key_visual.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center 100%;
+	width: auto;
+	height: 580px;
+}
+    
+#keyvisual_text h1 { 
+	margin: 0px; 
+	padding: 20px; 
+	text-align: center; 
+	text-transform: uppercase;
+	font-size: 270%;
+	}    
+	
+	#key_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-right: auto;
+	right: 40px;
+    top: 40px;
+    width: 360px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+	
+#key_name h1 {
+	font-family: "Bosch Sans Black";
+    font-size: 100%;
+	text-align: left;
+	width: 360px;
+	padding: 0px; 
+}
+
+#key_description {
+    font-family: "Bosch Sans Bold";
+    font-size: 77%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+	#key_description_2 {
+    font-family: "Bosch Sans Regular";
+    font-size: 70%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+.key_bold {
+    font-family: "Bosch Sans Bold";
+    font-size: 13px;
+}  
+    
+#details_section p {
+    font-size: 70%;
+}    
+    
+#details_grid {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    grid-row-gap: 0% ;
+    width: 100%;
+    margin:auto;
+
+}
+.details_hl ph {
+    font-family: "Bosch Sans Bold";
+            font-size: 70%;
+}
+    
+
+.details_hl {
+    padding-top: 10%;
+}
+
+
+.details_hl2 {
+    padding-top: 30px;
+}
+   
+.details_hl2 ph {
+    font-family: "Bosch Sans Bold";
+            font-size: 70%;
+}
+.details_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.details_1{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+    padding-left: 2%;
+    padding-right: 30%;
+    text-align: left;
+
+}
+
+.details_pic_2{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-top: 30px;
+}
+
+.details_2{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+    padding-right: 5%;
+    padding-left: 30%;
+    text-align: right;
+}
+
+.details_pic_3{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.details_3{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+    padding-left: 2%;
+    padding-right: 30%;
+    text-align: left;
+}
+    
+#what_can_grid {
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    grid-row-gap: 5% ;
+    width: 96%;
+    margin:auto;
+    text-align: left;
+
+}
+    
+    
+#what_can_we_do p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 100%
+}
+
+#what_can_we_do table {
+	margin: auto;
+	width: 80%;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+	text-align: left;
+} 
+	
+/* Biturbo */
+	
+#biturbo {
+	margin: auto;
+	width: 100%;
+	text-align: left;
+    height: 100%
+}
+
+	/* biturbo */
+
+#biturbo_grid {
+    display: grid;
+    padding-bottom: 3%;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    width: 100%;
+    margin:auto;
+
+}
+
+.benefit_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_2{
+ 	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_2{
+ 	grid-column-start: 2;
+	grid-column-end:2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_3{
+ 	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.benefit_pic_4{
+ 	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.benefit_4{
+ 	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+	/* TECHNICAL DETAILS */
+    
+#technical_details {
+	position: relative;
+	margin: auto;
+	padding: 100px 0 30px 0;
+	overflow: hidden;
+}
+
+#technical_details_img img
+{
+	position:absolute;
+}
+
+#technical_details img {
+    width: 27vw;
+    max-width: 400px;
+    margin-left:70%;
+    margin-right: auto;
+    position: absolute;
+    top:30px;
+}
+
+
+
+
+#product_info p{ 
+	font-size: 16px;
+}
+
+h2 {
+    font-size: 15px;
+}
+	
+p3 {
+	font-size: 14px;
+    font-family: "Bosch Sans regular";
+}   
+	p3 {
+	font-size: 15px;
+    font-family: "Bosch Sans regular";
+} 
+    
+#woodworking_keyvisual {
+	position: relative;
+	background-image: url("woodworking_keyvisual.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center 19%;
+	width: auto;
+	height: 1050px;
+}
+
+#woodworking_keyvisual_hl {
+	position: absolute;
+	text-align: left;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    margin-right: auto;
+	right: 40px;
+    top: 40px;
+    width: 300px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+
+#woodworking_keyvisual h1 {
+    font-size: 250%;
+	text-align: left;
+	padding: 0px; 
+    line-height: 1;
+}
+
+#woodworking_keyvisual_shl {
+    font-family: "Bosch Sans Black";
+    font-size: 100%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+
+#woodworking_keyvisual_description {
+    font-family: "Bosch Sans regular";
+    font-size: 85%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}    
+    
+#service {
+	position: relative;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+	background-position: 45%;
+	background-image: url("service_img.jpg"); 
+}
+
+h4{
+	font-family: "Bosch Sans Bold";
+    font-size: 80%;    
+    padding-top: 0px;
+}
+
+h5{
+	font-family: "Bosch Sans regular";
+    font-size: 65%;
+    margin-top: -7px;
+    margin-bottom:5px;
+}
+
+
+#customer_service_box {
+	position: absolute;
+	width: 400px;
+	right: 0;
+	top: 20px;
+	display: inline-block;
+	padding: 0px 20px 10px 50px;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+    color: white;
+}
+
+
+#after_sales_box {
+	display: inline-block;
+	position: absolute;
+	width: 400px;
+	right: 0px;
+    bottom: 380px;
+	padding: 0px 10px 105px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box2 h4{
+    font-size: 100%;
+    font-family: "Bosch Sans bold";
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+#after_sales_box2 {
+	display: inline-block;
+	position: absolute;
+	width: 400px;
+	right: 0px;
+    bottom: 230px;
+	padding: 0px 10px 105px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box2 img{
+    padding-top: 1%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box img{
+    padding-top: 1%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box3 {
+	display: inline-block;
+	position: absolute;
+	width: 400px;
+	right: 0px;
+    bottom: 30px;
+	padding: 0px 10px 105px 5%;
+    text-align: left;
+    color: white;
+	background:  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+#after_sales_box3 img{
+    padding-top: 1%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#after_sales_box3 h4{
+    font-size: 100%;
+    font-family: "Bosch Sans bold";
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+footer {
+	color: white;
+	background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+}
+
+.footer_section_column { 
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+	padding-bottom: 50px;
+	vertical-align: top;
+    font-size: 90%;
+    font-family: bosch sans regular;
+}        
+
+
+    
+
+
+
+
+
+
+
+/* Mobiles, Small Tablets */
+@media (max-width : 767px ){
+	
+    
+	
+#blue_stripe {
+	width: 100%;
+	height: 55px;
+	background: url("bosch_logo_mobile.png"),  linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+}
+    
+#blue_stripe:before {
+    content: '';
+    position: absolute;
+    z-index: 1; /* push it to the background */
+    top: 24px; /* position it off the top background */
+    right: 20px;
+    bottom: 0px; /* position it off the bottom background */
+    left: 0px;
+}
+    
+#heavy_duty_logo {
+    position: relative;
+    width: 30px;
+	left: 90%;
+}
+    
+#cover {
+	position: relative;
+	background-image: url("cover_img.png");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: 20% 0%;
+	width: auto;
+	height: 500px;
+}
+    
+  
+ #cover_product_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+    padding-right: 20px;
+	left: 20px;
+    top: 20px;
+    bottom:auto;
+	color: white;
+	width: 200px;
+	height: auto;
+}
+    
+     #brushless_logo {
+	margin: auto;
+    width: 40%;
+    padding-top: 10%;
+    float:right;
+}   
+    
+#cover_product_description {
+    font-family: "Bosch Sans Black";
+    font-size: 70%;
+	margin: 10px 0 0px 0; 
+}
+    
+ #cover_product_description_2 {
+    font-family: "Bosch Sans Black";
+    font-size: 55%;
+	margin: 10px 0 0px 0; 
+}
+	
+    
+     #cover_product_description_2 p {
+    font-family: "Bosch Sans Black";
+    font-size: 15%;
+	margin: 10px 0 0px 0; 
+}
+    
+    
+#main_set_grid p {
+    font-size: 80%;
+    text-align: center;
+}
+
+#main_set_grid p2 {
+    font-size: 200%;
+    color: #003b6a;
+}
+
+
+#keyvisual_text h1 { 
+	font-family: "Bosch Sans Black";
+    font-size: 250%;
+	margin: 0px; 
+	padding: 13px; 
+	text-align: center; 
+	color: white;
+	text-transform: uppercase;
+
+}
+    
+#keyvisual {
+	position: relative;
+	background-image: url("health_key_visual.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: right 55%;
+	width: auto;
+	height: 350px;
+}  
+	#key_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-right: auto;
+	right: 20px;
+    top: 20px;
+    width: 250px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+	
+#key_name h1 {
+	font-family: "Bosch Sans Black";
+    font-size: 100%;
+	text-align: left;
+	padding: 0px; 
+}
+
+#key_description {
+    font-family: "Bosch Sans Bold";
+    font-size: 77%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+	#key_description_2 {
+    font-family: "Bosch Sans Regular";
+    font-size: 60%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+.key_bold {
+    font-family: "Bosch Sans Bold";
+    font-size: 12px;
+ }
+
+#product { 
+	margin: auto;
+	background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    width: 80%
+}
+    
+p {
+	font-size: 13px;
+}
+	
+#product_description {
+	margin: auto;
+	text-align: center; 
+	width: 70%;
+	padding-bottom: 50px;
+    font-size: 80%
+}
+	
+h1 { 
+	margin: 0px; 
+	padding: 13px; 
+	text-align: center; 
+	color: white;
+	text-transform: uppercase;
+	font-size: 160%;
+}
+    
+ h2 {
+    font-size: 15px;
+}
+ 
+ #icon_section { 
+
+	width: 100%;
+	padding: 0px 0 30px 0;
+}   
+
+    
+#cover_2 {
+	position: relative;
+	background-image: url("cover_2.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 600px;
+    margin-bottom: 40px;
+}    
+
+
+#cover_2_product_name {
+	position: absolute;
+	text-align: left;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    margin-right: 90px;
+	margin-left: auto;
+    left: 0px;
+    top: 300px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	width: auto;
+	height: auto;
+}
+
+    
+#details_section p {
+        font-size: 70%;
+    } 
+    
+#details_grid {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    grid-row-gap: 0% ;
+    width: 100%;
+    margin:auto;
+
+}
+.details_hl ph {
+    font-family: "Bosch Sans Bold";
+            font-size: 70%;
+}
+    
+
+.details_hl {
+    padding-top: 20px;
+}
+
+
+.details_hl2 {
+    padding-top: 20px;
+}
+   
+.details_hl2 ph {
+    font-family: "Bosch Sans Bold";
+            font-size: 70%;
+}
+
+.details_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.details_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 10%;
+    text-align: left;
+
+}
+
+.details_pic_2{
+    padding-top: 30px;
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.details_2{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 4;
+	grid-row-end: 4;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+}
+
+.details_pic_3{
+    padding-top: 30px;
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+.details_3{
+ 	grid-column-start: 12;
+	grid-column-end: 1;
+	grid-row-start: 6;
+	grid-row-end: 6;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+    
+      
+    
+    
+#what_can_we_do p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 80%
+}
+#what_can_grid {
+    display: grid;
+    padding-top: 0px;
+    padding-bottom: 150px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-column-gap: 2% ;
+    grid-row-gap: 2% ;
+    margin:auto;
+    text-align: left;
+
+}
+
+.what_can_pic_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+.what_can_1{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+
+.what_can_pic_2{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+.what_can_2{
+ 	grid-column-start: 1;
+	grid-column-end:1;
+	grid-row-start: 4;
+	grid-row-end: 4;
+    padding-left: 2%;
+    padding-bottom: 5%;
+
+}
+
+.what_can_pic_3{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+.what_can_3{
+ 	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 6;
+	grid-row-end: 6;
+    padding-left: 2%;
+    padding-bottom: 5%;
+
+}
+    
+
+
+
+	
+/* TECHNICAL DETAILS */	
+	
+#technical_details {
+	position: relative;
+	margin: auto;
+	padding: 150px 0 50px 0;
+	overflow: hidden;
+}
+
+#technical_details_img img
+{
+	position:fixed;
+}
+
+#technical_details img {
+    z-index: -1;
+	width:50%;
+    max-width: 300px;
+    margin-left:27%;
+    margin-right: auto;
+    position: absolute;
+    top: 5%;
+
+}   
+	
+#technical_details_table {
+	margin: auto;
+	width: 100%;
+    padding-top: 100px;
+}
+
+#technical_details td {
+	padding: 10px;
+	text-align: left;
+    font-size: 15px;
+}	
+	
+.column_right {
+	width: 100px;
+}
+    
+
+
+#product_comparison table {
+	margin: auto;
+	text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.table_bold {
+    font-family: Bosch Sans Black;
+    font-size: 70%;
+	text-align: left;
+    border:none;
+}
+
+.table_medium{
+    font-size: 70%;
+	text-align: center;
+    border:none;
+}
+    
+.table_medium_highlight{
+    font-size: 70%;
+	text-align: center;
+    border:none;
+    background-color: #e2e2e2
+}    
+
+
+#product_comparison th {
+	background-color: #003d6d;
+    font-size:80%;
+	color: white;
+	padding: 10px;
+}
+
+#product_comparison td {
+	padding: 13px;
+}    
+    
+    
+
+#woodworking_keyvisual {
+	position: relative;
+	background-image: url("woodworking_keyvisual.jpg");
+	background-size: cover;                    
+	background-repeat: no-repeat;
+	background-position: center 19%;
+	width: auto;
+	height: 570px;
+}
+
+#woodworking_keyvisual_hl {
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-right: auto;
+	right: 20px;
+    top: 40px;
+    width: 150px;
+	bottom: auto;
+	background:linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	color: white;
+	height: auto;
+}
+
+
+#woodworking_keyvisual h1 {
+    font-size: 100%;
+	text-align: left;
+	padding: 0px; 
+    line-height: 1;
+}
+
+#woodworking_keyvisual_shl {
+    font-family: "Bosch Sans Black";
+    font-size: 70%;
+	margin: 10px 0 0px 0; 
+    padding-bottom: 0px;
+    
+}
+
+
+
+#woodworking_keyvisual_description {
+    font-family: "Bosch Sans regular";
+    font-size: 40%;
+	margin: 10px 0 10px 0; 
+    padding-bottom: 0px;
+    
+} 
+    
+#service {
+	position: relative;
+	width: auto;
+	height: 900px;
+	background-size: cover;
+	background-position: 60%;
+	background-image: url("service_img.jpg"); 
+}
+
+h4{
+	font-family: "Bosch Sans Bold";
+    font-size: 80%;    
+    padding-top: 0px;
+}
+
+h5{
+	font-family: "Bosch Sans regular";
+    font-size: 65%;
+    margin-top: -7px;
+    margin-bottom:5px;
+}
+
+#customer_service_box {
+	position: absolute;
+	width: 70%;
+	right: 0;
+	top: 20px;
+	display: inline-block;
+	padding: 0px 20px 10px 50px;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+    color: white;
+}
+
+#after_sales_box {
+	position: absolute;
+	width: 70%;
+	bottom: 370px;
+    height: 210px;
+	right: 0;
+	display: inline-block;
+	padding: 0px 20px 0px 50px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+
+}
+
+ 
+#after_sales_box img{
+    padding-top: 3%;
+    position: absolute;
+    width: 20vh;
+    max-width: 130px;
+}    
+    
+#after_sales_box2 {
+	position: absolute;
+	width: 70%;
+	bottom: 173px;
+    height: 200px;
+	right: 0;
+	display: inline-block;
+	padding: 0px 20px 0px 50px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+
+}
+
+ 
+#after_sales_box2 img{
+    padding-top: 3%;
+    position: absolute;
+    width: 20vh;
+    max-width: 130px;
+}     
+    
+
+    
+#after_sales_box3 {
+	position: absolute;
+	width: 70%;
+	bottom: 20px;
+    height: 190px;
+	right: 0;
+	display: inline-block;
+	padding: 0px 20px 0px 50px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+	background-repeat: no-repeat;
+
+}
+ 
+#after_sales_box3 img{
+    padding-top: 3%;
+    position: absolute;
+    width: 20vh;
+    max-width: 130px;
+} 
+
+    
+footer {
+	color: white;
+	background: linear-gradient(90deg, rgba(0,59,106,1) 0%, rgba(0,86,145,1) 80%);
+    height: 300px;
+}
+
+
+.footer_section_column { 
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 30px;
+	padding-bottom: 0px;
+	vertical-align: top;
+    font-size: 100%;
+}
+
+.footer_section_column p
+{
+	font-family: bosch sans bold;
+    font-size: 100%;
+}
+    
+    
+}
+ 
